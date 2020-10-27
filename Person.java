@@ -81,7 +81,7 @@ class Person {
     public void trinke(AlkoholischesGetraenk AlkoholischesGetraenk){
         
     }
-   
+   //Rechnung Promille
     public double getAlkoholPromille(){
         
 
@@ -89,7 +89,7 @@ class Person {
         return promille;
 
     }
-    
+    //Rechnung getGW
     private double getGKW(){
          double gkw = 0;
 
