@@ -2,7 +2,7 @@
 //Michele Biondi
 //Last updated 21.10.2020
 
-
+//Variablen
 class AlkoholischesGetraenk {
     
     private int volumen;
@@ -37,7 +37,7 @@ class AlkoholischesGetraenk {
      
    
     
-     
+     //Konstruktor Alkoholisches Getränk
      public AlkoholischesGetraenk(int volumen, double alkoholgehalt, double getrunkenVor){
         this.volumen = volumen;
         this.alkoholgehalt = alkoholgehalt;
