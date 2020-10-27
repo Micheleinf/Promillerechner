@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 //Michele Biondi
 //Last updated 21.10.2020
 
-
+//Abfrage Benutzer
 public class GUI {
     
     private Person askPersonData() {
@@ -22,7 +22,7 @@ public class GUI {
        
        
        
-      
+   //Abfrage Getränk   
        
         
        Person newPerson = new Person(koepergroesse, koepermasse, gender, alter);
@@ -67,14 +67,14 @@ public class GUI {
         
         
        
-        
+        //Erstellung neues Getränk
 
         
         AlkoholischesGetraenk abc = new AlkoholischesGetraenk(getrunkenAm, volumenInMilliter, gehalt);
         return abc;
     
     }
-
+        //Erstellung neuer Peson mit Daten
     
     public void promilleRechner(){
        Person person = askPersonData();
