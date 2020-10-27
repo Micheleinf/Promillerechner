@@ -5,7 +5,7 @@
 
 public class Start {
 
-    
+    //Starter Klass
     public static void main(String[] args) {
         
         new GUI().promilleRechner();
